@@ -47,6 +47,11 @@ cd contracts
 forge test --fork-url="https://api.avax.network/ext/bc/C/rpc" --fork-block-number=12435550
 ```
 
+To run anchor tests
+```
+forge test --fork-url="https://api.avax.network/ext/bc/C/rpc" --fork-block-number=14318158 --match-contract=aUST
+```
+
 ## License
 
 [AGPL-3.0-only]
